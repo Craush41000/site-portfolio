@@ -145,6 +145,19 @@ export function Navbar() {
                     </button>
                   </motion.li>
                 ))}
+                <motion.li
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.05 + navLinks.length * 0.05 }}
+                  className="border-b border-border/60"
+                >
+                  <button
+                    onClick={() => scrollToSection("#cv")}
+                    className="w-full text-left py-5 text-3xl font-medium tracking-tight text-foreground"
+                  >
+                    CV
+                  </button>
+                </motion.li>
               </ul>
 
               <motion.div
