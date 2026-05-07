@@ -87,11 +87,9 @@ export function Navbar() {
 
           {/* Desktop CTA */}
           <a
-            href="#cv"
-            onClick={(e) => {
-              e.preventDefault()
-              scrollToSection("#cv")
-            }}
+            href="https://disk.yandex.ru/i/FUazNYdGPB8MQA"
+            target="_blank"
+            rel="noopener noreferrer"
             data-cursor-hover
             className="hidden md:inline-flex items-center gap-2 px-4 py-2 text-[13px] font-medium tracking-tight text-background bg-foreground hover:bg-accent hover:text-accent-foreground rounded-full transition-all duration-300"
           >
@@ -151,12 +149,14 @@ export function Navbar() {
                   transition={{ delay: 0.05 + navLinks.length * 0.05 }}
                   className="border-b border-border/60"
                 >
-                  <button
-                    onClick={() => scrollToSection("#cv")}
+                  <a
+                    href="https://disk.yandex.ru/i/FUazNYdGPB8MQA"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-full text-left py-5 text-3xl font-medium tracking-tight text-foreground"
                   >
                     CV
-                  </button>
+                  </a>
                 </motion.li>
               </ul>
 
