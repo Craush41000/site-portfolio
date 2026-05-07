@@ -5,6 +5,7 @@ import { Services } from "@/components/services"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { CustomCursor } from "@/components/custom-cursor"
+import { ScrollToTopButton } from "@/components/scroll-to-top"
 import { SmoothScroll } from "@/components/smooth-scroll"
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTopButton />
     </SmoothScroll>
   )
 }

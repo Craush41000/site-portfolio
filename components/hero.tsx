@@ -54,7 +54,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="font-sans text-[40px] sm:text-6xl md:text-7xl lg:text-[104px] leading-[1.02] tracking-[-0.035em] font-medium text-balance"
+            className="font-sans text-[36px] sm:text-6xl md:text-7xl lg:text-[104px] leading-[1.02] tracking-[-0.035em] font-medium text-balance"
           >
             Разрабатываю сайты
             <br />
