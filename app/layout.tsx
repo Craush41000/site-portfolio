@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   description:
     "Разрабатываю сайты с современным дизайном и максимальной пользой для вашего дела. Дизайн в Figma, сайты под ключ, AI-контент.",
   generator: "v0.app",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.png",
+    shortcut: "/icon-light-32x32.png",
+  },
 }
 
 export const viewport: Viewport = {
